@@ -14,6 +14,18 @@ dx = dy * F'(x)
 ```
 Nous auront donc un gradient vecteur dS/dx
 
-Pour la Matrice Hessienne il faut : d( dS/dx ) / dx
+Pour la Matrice Hessienne il faut : d( dS/dx ) / dx = dSdS/dxdx
 
-Donc on retro-propage la retro-propagation
+Donc on retro-propage la retro-propagation :
+
+```
+y = F(x)
+s = S(y)
+dy = S'(x)
+dx = dy * F'(x)
+
+
+
+```
+
+
