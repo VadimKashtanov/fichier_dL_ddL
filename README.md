@@ -8,14 +8,14 @@ Il compare la Hessienne aux calcules infinitésimaux :
 
 
 Resultat de ce petit exemple : 
-
+```
  === Start === 
 ====================================
 2.5471205711364746
 ====================================
 0.06205892562866211
 k =  41.043581488624405
-
+```
 2.54 est le temps avec une methode d'itération de retro-propagation
 
 0.06 est le temps avec ma méthode de retro-retro-propagation
